@@ -1,14 +1,9 @@
-<h2>Routing task</h2>
-
-<h2>User pages</h2>
-<ul>
-  <li> <a routerLink="user/login"> Go to Login </a></li>
-  <li> <a routerLink="user/list"> Go to List </a></li>
-</ul>
-
-<h2>admin pages</h2>
-<ul>
-  <li> <a routerLink="admin/login"> Go to Login </a></li>
-  <li> <a routerLink="admin/list"> Go to List </a></li>
-</ul>
-<router-outlet></router-outlet>
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>supervised_user_circle</mat-icon>
+    </button>
+    <span>Angular 13 CRUD using Metirial UI </span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="warn" (click)="openDialog()">Add Product</button>
+  </mat-toolbar>
+ 
