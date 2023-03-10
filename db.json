@@ -1,0 +1,59 @@
+{
+  "productList": [
+    {
+      "productname": "orange",
+      "category": "fruits",
+      "date": "Fri Mar 10 2023 00:00:00 GMT-0800 (Pacific Standard Time)",
+      "freshness": "Brand New",
+      "price": 200,
+      "comment": "vfddddd",
+      "id": 1
+    },
+    {
+      "productname": "apple",
+      "category": "fruits",
+      "date": "Fri Mar 12 2023 00:00:00 GMT-0800 (Pacific Standard Time)",
+      "freshness": "Brand New",
+      "price": 500,
+      "comment": "new apple",
+      "id": 2
+    },
+    {
+      "productname": "",
+      "category": "",
+      "date": "2023-03-10T08:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": ",jh,vhj,",
+      "id": 3
+    },
+    {
+      "productname": "",
+      "category": "",
+      "date": "2023-03-08T08:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 250,
+      "comment": "mango second hand",
+      "id": 4
+    },
+    {
+      "productname": "",
+      "category": "",
+      "date": "2023-03-08T08:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": null,
+      "comment": "mango second hand",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
