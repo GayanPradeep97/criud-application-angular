@@ -5,7 +5,14 @@ mat-form-field{
 .out{
     margin-top: 20px;
 }
-outline{
-    width: 50px;
-}
 
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: flex-start;
+
+    
+  }
+  
+  
