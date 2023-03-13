@@ -13,7 +13,7 @@ import {MatTableDataSource} from '@angular/material/table';
 })
 export class AppComponent implements OnInit {
   title = 'routin-task';
-  displayedColumns: string[] = ['productname', 'category','date','freshness', 'price', 'comment'];
+  displayedColumns: string[] = ['productname', 'category','date','freshness', 'price', 'comment','action'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -42,10 +42,18 @@ constructor(private dialog: MatDialog, private api: ApiService){
         this.dataSource.sort = this.sort 
       },
       error:() => {
-        alert("unsuccess")
+        alert("error")
       }
     })
+  } 
+
+  editData(row : any){
+    this.dialog.open(DialogComponent),{
+      width : '30%',
+      data : row
+    }
   }
+
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();

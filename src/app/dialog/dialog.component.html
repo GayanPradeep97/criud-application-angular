@@ -3,15 +3,15 @@
     <form [formGroup] ="productForm">
         <mat-form-field class="out" appearance="outline">
             <mat-label>Product Name</mat-label>
-            <input eformControlNam="productname" matInput placeholder="Placeholder">
+            <input formControlName="productname" matInput placeholder="Placeholder">
           </mat-form-field>
     
           <mat-form-field appearance="outline">
             <mat-label>Product Category</mat-label>
             <mat-select formControlName="category" placeholder="Category">
-                <mat-option value="">Fruits</mat-option>
-                <mat-option value="">Vegitables</mat-option>
-                <mat-option value="">Electronmic</mat-option>
+                <mat-option value="Fruits">Fruits</mat-option>
+                <mat-option value="Vegitables">Vegitables</mat-option>
+                <mat-option value="Electronic">Electronic</mat-option>
             </mat-select>
           </mat-form-field>
 
