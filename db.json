@@ -1,22 +1,13 @@
 {
   "productList": [
     {
-      "productname": "orange",
-      "category": "fruits",
-      "date": "Fri Mar 10 2023 00:00:00 GMT-0800 (Pacific Standard Time)",
-      "freshness": "Brand New",
-      "price": 200,
-      "comment": "vfddddd",
+      "productname": "mango",
+      "category": "Fruits",
+      "date": "2023-03-15T07:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 300,
+      "comment": "mango juice",
       "id": 1
-    },
-    {
-      "productname": "apple",
-      "category": "fruits",
-      "date": "Fri Mar 12 2023 00:00:00 GMT-0800 (Pacific Standard Time)",
-      "freshness": "Brand New",
-      "price": 500,
-      "comment": "new apple",
-      "id": 2
     }
   ]
 }
